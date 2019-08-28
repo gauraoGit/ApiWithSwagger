@@ -1,0 +1,14 @@
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.deps.json
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.runtimeconfig.json
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.runtimeconfig.dev.json
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.dll
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.pdb
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\bin\Debug\netcoreapp2.2\Library.API.xml
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.csproj.CoreCompileInputs.cache
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.RazorAssemblyInfo.cache
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.RazorAssemblyInfo.cs
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.AssemblyInfoInputs.cache
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.AssemblyInfo.cs
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.RazorTargetAssemblyInfo.cache
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.dll
+D:\workspace\DocumentingAspNetCoreApisWithOpenAPI\Starter files\Library.API\obj\Debug\netcoreapp2.2\Library.API.pdb
