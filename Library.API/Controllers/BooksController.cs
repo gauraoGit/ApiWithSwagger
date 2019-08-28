@@ -77,6 +77,7 @@ namespace Library.API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
+        [Consumes("application/json")]
         [HttpPost()]
         public async Task<ActionResult<Book>> CreateBook(
             Guid authorId,
