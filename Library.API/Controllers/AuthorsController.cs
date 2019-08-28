@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 namespace Library.API.Controllers
 {
 
+    [Produces("application/json","application/xml")]
     [Route("api/authors")]
     [ApiController]
     public class AuthorsController : ControllerBase
@@ -30,6 +31,7 @@ namespace Library.API.Controllers
         /// Get all authors for which books are available in Library.
         /// </summary>
         /// <returns>List of all authors.</returns>
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Author>>> GetAuthors()
         {
@@ -42,10 +44,10 @@ namespace Library.API.Controllers
         /// </summary>
         /// <param name="authorId">The id of author you want to get</param>
         /// <returns>Actionresult of author DTO</returns>
-        [HttpGet("{authorId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
+        [HttpGet("{authorId}")]
         public async Task<ActionResult<Author>> GetAuthor(
             Guid authorId)
         {

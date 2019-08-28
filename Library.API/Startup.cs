@@ -52,6 +52,11 @@ namespace Library.API
                 setupAction.Filters.Add(new ProducesResponseTypeAttribute(StatusCodes.Status406NotAcceptable));
                 setupAction.Filters.Add(new ProducesResponseTypeAttribute(StatusCodes.Status500InternalServerError));
 
+                //To Restrict unsupported media type
+                setupAction.ReturnHttpNotAcceptable = true;
+
+                //Format xml output as response
+                setupAction.OutputFormatters.Add(new XmlSerializerOutputFormatter());
 
                 var jsonOutputFormatter = setupAction.OutputFormatters
                     .OfType<JsonOutputFormatter>().FirstOrDefault();
@@ -64,6 +69,7 @@ namespace Library.API
                     {
                         jsonOutputFormatter.SupportedMediaTypes.Remove("text/json");
                     }
+
                 }
             })
             .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
